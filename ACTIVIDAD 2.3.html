@@ -110,13 +110,68 @@
 
 <section id="form">
     <h2>inscripcion al club</h2>
-    <from acti
+    <from action="https://webhook.site/15abf6ea-6293-4115-b109-bdee96a333cf" method="POST">
+
+        <label>Nombre:
+            <input type="text" name="nombre" required>
+        </label>
+
+        <label>Email:
+            <input type="email" name="email" required>
+        </label>
+
+        <label>Teléfono:
+            <input type="tel" name="telefono">            
+        </label>
+
+        <label>Género literario favorito:
+            <select name="genero">
+                <option>Fantasía</option>
+                <option>Misterio</option>
+                <option>Romance</option>
+                <option>Ciencia ficción</option>
+            </select>
+        </label>
+
+        <fieldset>
+            <legend>Horario preferido:</legend>
+
+            <label><input type="radio" name="horario" value="mañana">Mañana </label>
+            <label><input type="radio" name="horario" value="tarde">Tarde </label>
+
+        </fieldset>
+
+        <label>Preferencias de contacto:
+            <input type="checkbox" name="contacto" value="email"> Email
+            <input type="checkbox" name="contacto" value="telefono"> télefono
+        </label>
+
+        <label>Comentarios:
+            <textarea name="comentarios"></textarea>
+        </label>
+
+        <button type="submit">Enviar</button>
+    </from>
+
+</section>
+
+<section id="privacidad">
+    <h2>Política de privacidad</h2>
+    <p>Los datos recogidos se utilizan únicamente para gestionar la participación del club de lectura.</p>
+
 </section>
 </main>
 
+<footer>
+    <p>2025 Club de Lectura Guanarteme</p>
+    <a href="#arriba">Volver arriba</a>
+    <p>Síguenos:
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+    </p>
+</footer>
 
-
-
-
+<link rel="stylesheet" href="ACTIVIDAD 2.3.css">
 </body>
 </html>
+
