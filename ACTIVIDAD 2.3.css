@@ -3,3 +3,36 @@ body {
     margin: 20px;
     background-color: azure;
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    color: blue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+button{
+    padding: 8px;
+    cursor: pointer;
+}
